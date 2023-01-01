@@ -1,7 +1,15 @@
-{
+{ 
+  "author": "Akmal Shokosimov",
+  "description": "app which makes people manage issues on their own",
+  "license": "AGW",
 	"name": "fcc-learn-npm-package-json",
+  "version": "1.0.0",
+ "keywords": [ 
+  "Awesome stuff", "freecodecamp", "front-end"
+ ],
 	"dependencies": {
-		"express": "^4.14.0"
+    "@freecodecamp/example": "^4.14.0",
+  "moment": "~1.2.13"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -11,4 +19,4 @@
 		"type": "git",
 		"url": "https://idontknow/todo.git"
 	}
-}
+} 
